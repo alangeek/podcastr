@@ -60,7 +60,7 @@ export default function Episode({ episode }: EpisodeProps) {
   )
 }
 
-export const getStaticPaths: GetStaticPaths = async (ctx) => {
+export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [],
     fallback: 'blocking'
